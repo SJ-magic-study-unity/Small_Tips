@@ -1,0 +1,39 @@
+/************************************************************
+Unity book
+************************************************************/
+■書籍紹介
+http://izm-11.hatenablog.com/entry/2016/08/23/222125
+	
+	■初級
+		■Unity5 3D/2Dゲーム開発実践入門　作りながら覚えるスマートフォンゲーム開発
+			for mac
+			初心者向け
+			C#
+			sample game : High Quality
+			
+		□UnityではじめるC# 基礎編 単行本 – 2016/10/25
+			https://www.amazon.co.jp/Unity%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8BC-%E5%9F%BA%E7%A4%8E%E7%B7%A8-%E5%A4%A7%E6%A7%BB-%E6%9C%89%E4%B8%80%E9%83%8E/dp/4844366084/ref=pd_sim_14_7?_encoding=UTF8&psc=1&refRID=2NAMT2S1J5R0AK9GFGDP
+			
+			
+		□Unity5の教科書 2D&3Dスマートフォンゲーム入門講座 (Entertainment&IDEA) 単行本 – 2016/6/22
+			https://www.amazon.co.jp/exec/obidos/ASIN/4797386797/armneon-22/
+			
+			C#
+			超簡単ぽいけど、とっつき易そう
+			
+			
+	■中級者を目指す（ゲームを一個作る）
+		□Unity5ゲーム開発レシピ ハマるゲーム制作のノウハウ 単行本（ソフトカバー） – 2016/1/23
+				https://www.amazon.co.jp/Unity5%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E3%83%AC%E3%82%B7%E3%83%94-%E3%83%8F%E3%83%9E%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%B6%E4%BD%9C%E3%81%AE%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6-BATA/dp/4798143030/ref=sr_1_20?s=books&ie=UTF8&qid=1496117063&sr=1-20&keywords=unity
+		
+	■中級
+		□ゲームの作り方　改訂版　Unityで覚える遊びのアルゴリズム
+			https://www.amazon.co.jp/exec/obidos/ASIN/B01D1QNN6C/armneon-22/
+			
+			Review
+				"C#" "Unity5" "PC/Mac向け" "具体的にゲームを作りたい" な参考書を探している人にはベスト
+			
+		□Unityエキスパート養成読本[ゲーム開発の現場で役立つノウハウ満載! ] (Software Design plus) 大型本 – 2016/1/7
+			https://www.amazon.co.jp/Unity%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E9%A4%8A%E6%88%90%E8%AA%AD%E6%9C%AC-%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%A7%E5%BD%B9%E7%AB%8B%E3%81%A4%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6%E6%BA%80%E8%BC%89-Software-Design-plus/dp/4774178586?SubscriptionId=AKIAI4TWNNEFXKKTPYDQ&tag=samurai4809-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774178586
+			
+	

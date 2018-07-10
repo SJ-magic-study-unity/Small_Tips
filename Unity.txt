@@ -1,0 +1,169 @@
+/************************************************************
+account
+************************************************************/
+■account
+mail		nobuhiro.saijo@gmail.com
+password	R-1
+Username	SJMagic
+
+
+/************************************************************
+study
+************************************************************/
+■Script Reference : official 
+	https://docs.unity3d.com/ja/current/ScriptReference/
+	
+■.appにする方法 : p036
+	OK
+	
+■Reflection Probe : 映り込み : p063
+	■リフレクションプローブ
+		http://dennou-note.blogspot.jp/2016/10/blog-post.html
+		
+		contents
+			わかり易い
+		
+	■Reflection Probeで鏡面反射する床を作る
+		http://nn-hokuson.hatenablog.com/entry/2016/10/17/202135
+		
+		contents
+			scriptでprobeを常にcameraの逆側にsetし続ける.
+
+■change skybox
+	http://koma2961.hatenablog.com/entry/2015/07/31/231002			
+
+■Asset storeからDownloadしたpackageの保存場所
+	http://d.hatena.ne.jp/nakamura001/20120312/1331567986
+	
+	contents
+		~/Library/Unity/Asset Store-5.x
+		
+■asset : download Error.
+	http://hitsumabushiko.hatenablog.com/entry/2016/01/17/015101
+	
+	contents
+		¥ライブラリ¥Unity¥Asset Store-5.x
+		中身を全て退避(削除)
+
+■collider, rigidbody
+	https://docs.unity3d.com/jp/540/Manual/CollidersOverview.html
+	
+	contents
+		コライダーは Rigidbodyの設定次第で異なった作用をします。
+		3 つの重要な設定は Static Collider (Rigidbody がアタッチされていないすべてのもの),Rigidbody Collider,Kinematic Rigidbody Collider です。
+		
+		わかり易い.
+		
+	
+■Has Exit Time
+	https://docs.unity3d.com/jp/540/Manual/class-Transition.html
+	
+	contents
+		よく読むとわかり易い.
+		日本語訳が少しおかしいけど.
+		
+	
+■gameObject.GetComponent<Transform>() と transform の違い（または Unity における省略記法について）
+	http://qiita.com/megane42/items/9709d696e8f2561dbb1d
+	
+	contents (非常に理解が進む良い記事)
+		・	componentは、アタッチされているGameObjectへの参照を持っている
+		・	component内部において、transform は専用の内部関数でコンポーネントを取得しているため、高速
+			GetComponent<>() のようにコンポーネントの検索コストがかからない
+			
+■コルーチン
+	http://qiita.com/kazz4423/items/73219068684e87adc87d
+
+■Unityのボタンのenabled/setActive/interactableの違い
+	http://portaltan.hatenablog.com/entry/2016/05/24/144108
+	
+	enabled		component
+	SetActive	GameObject
+	
+■【Unity】Unityエディタのフォーカスが外れてもゲームを実行し続ける
+	http://baba-s.hatenablog.com/entry/2014/02/19/000000
+	
+	contents
+		・Unityエディタのメニューから「File>Build Settings...」を選択する
+		・Build Settingsウィンドウの「Player Settings...」を選択する
+		・InspectorビューのPer-Platform Settings項目で「Web Player」または「PC, Mac & Linux Standalone」のタブを選択する
+		・Resolution項目の「Run In Background」をオンにする
+		->これで、Unityエディタでゲームを再生中にブラウザやエクスプローラなど他のアプリケーションにフォーカスを当ててもゲームが常に再生される状態になります
+		
+
+□original packageのつくり方 : 3D model & Animation dataなど
+
+□Asset storeから取得した3D modelの使い方
+
+
+□Light map/ Light Probe : p118
+	http://indie-du.com/entry/2014/12/02/202230
+	
+
+□plug-inの使い方
+
+■イベント関数の実行順
+	https://docs.unity3d.com/jp/530/Manual/ExecutionOrder.html
+	
+	contents
+		start, update, など全てのイベント関数の順序.
+
+■Unity: GameObjectの非表示２つの方法と削除
+	http://hamken100.blogspot.jp/2012/05/unity-gameobject.html
+	
+■RequireComponentでアタッチし忘れ防止【Unity】【属性】
+	http://kan-kikuchi.hatenablog.com/entry/RequireComponent
+	
+	see also
+		https://github.com/SJ-magic-study-unity/study__Unity_optitrack
+		SampleMocapData.cs
+		
+■イベント関数の実行順
+	https://docs.unity3d.com/jp/530/Manual/ExecutionOrder.html
+
+■Unityで他のスクリプトの変数や関数を利用する
+	http://hiroyukitsuda.com/archives/1702
+	
+■scriptからunity app/ unity Editor を終了させる
+
+	using UnityEditor; // need this
+
+	void Update () {
+		if(CopyPose == null){
+			Debug.LogWarning("Control_GhostModel:CopyPose not set.");
+			
+			if(Application.isEditor)	EditorApplication.isPlaying = false;
+			else						Application.Quit()
+			
+			return;
+		}
+	}
+	
+	・scriptで、inspector上から設定が必要なのに、未設定だった場合などに使用.
+	・AppとEditorでmethod異なるので注意.
+	・なぜか、Start()内だと、上手く終了しなかった.
+
+■
+
+/************************************************************
+assets
+************************************************************/
+■ダウンロード assetの保存先
+	/Users/nobuhiro/Library/Unity/Asset Store-5.x
+	
+	フォルダへ移動から
+		~/Library/
+		~	:means /Users/nobuhiro
+	--- or ---
+	menuの移動からoptionを押すとライブラリが表示されるので、そこから移動
+	
+	
+■Sky5X One
+	How to set skybox
+		http://inter-high-blog.unity3d.jp/2017/07/06/skybox/
+
+
+
+
+
+

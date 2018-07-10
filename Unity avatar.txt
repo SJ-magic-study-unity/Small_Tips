@@ -1,0 +1,14 @@
+/************************************************************
+macanim, avatar, Rig, Humanoid, HumanPoseHandler, HumanPose, skelton
+************************************************************/
+■アバターの設定
+	https://docs.unity3d.com/jp/530/Manual/ConfiguringtheAvatar.html
+	
+■[Unity] Mecanimを使ってユニティちゃんを動かしてみた、で出た疑問点を解消していく
+	http://kikikiroku.session.jp/unity5-mecanim-animation-study/
+	
+■ヒューマノイドアニメーションでの作業
+	https://docs.unity3d.com/ja/current/Manual/AvatarCreationandSetup.html
+	
+	
+	

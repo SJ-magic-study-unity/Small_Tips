@@ -1,0 +1,88 @@
+/************************************************************
+************************************************************/
+■newで生成したobjectは、deleteしないで良い
+	CLR(Common Language Runtime)により、不要になると、自動的に解放される。
+
+■class objectの生成
+	http://ufcpp.net/study/csharp/oo_class.html
+
+	contents
+			クラス名 変数名;
+		とした段階では、変数を格納する「空っぽの入れ物」ができただけで、instance(= 中身)は、まだない。
+		
+			変数 = new クラス名();
+		によって、インスタンスを作成し、用意した変数に格納します。
+
+■コルーチン
+	https://cfm-art.sakura.ne.jp/sys/archives/419
+	
+	
+■SetActiveかenabledか
+	http://trick7.com/2014/08/setactive_or_enabled/
+	
+	SetActive	: GameObjectに対して
+	enabled		: each compenent.
+	
+■値型と参照型
+	http://ufcpp.net/study/csharp/oo_reference.html
+	
+	struct	: 値型
+	class	: 参照型
+	
+■値型と参照型の区別と違い
+	https://dobon.net/vb/dotnet/beginner/valuereference.html
+	
+	contents
+		値型	:構造体、列挙体
+		参照型	:クラス、配列、インターフェイス、デリゲート
+		
+	
+■delegate(デリゲート)
+	http://ufcpp.net/study/csharp/sp_delegate.html
+	
+	contents
+		methodを入れるための変数.
+		関数pointerのようなモノ.
+	
+■C#によるdelegateとevent の処理
+	http://tomosoft.jp/design/?p=3526
+	
+	contents
+		短くてわかり易い.
+	
+■C# の delegate と event
+	http://yohshiy.blog.fc2.com/blog-entry-263.html
+	
+■[C#5.0～] async/awaitとTask.Runメソッドを用いた非同期処理のメモ
+	https://chronoir.net/cs-async-await-taskrun/
+	
+	contents
+		awaitの前後でthread idがどう変わるか、詳しく説明されいてる.
+
+■Taskを極めろ！async/await完全攻略
+	http://qiita.com/acple@github/items/8f63aacb13de9954c5da
+	
+	
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+■
+
+
