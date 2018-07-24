@@ -170,6 +170,22 @@ study
 		重ねて表示.
 		大きさの比を変える方法など.
 
+■scriptからQuality setting
+	https://tikuma1181.com/HPmain/?p=1109
+
+■Scene切り替えで画面が暗くなる	
+	http://siro-on.hatenablog.com/entry/2017/04/24/012713
+	
+	contents
+		window>Lighting
+			tab = Scene
+			
+		一番下のAutoを外す.
+		隣のBuild
+
+■HDMIを接続した状態で、build版のUnity appを起動するとcrashする.
+	HDMI外して起動.
+
 /************************************************************
 assets
 ************************************************************/
