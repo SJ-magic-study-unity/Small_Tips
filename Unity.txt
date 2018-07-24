@@ -186,6 +186,14 @@ study
 ■HDMIを接続した状態で、build版のUnity appを起動するとcrashする.
 	HDMI外して起動.
 
+■set main camera
+	https://answers.unity.com/questions/63221/how-to-set-main-camera.html
+	
+	tagを "MainCamera" に
+	or
+	別Sceneを作成し、main cameraをcopy -> 戻って paste.
+
+
 /************************************************************
 assets
 ************************************************************/
