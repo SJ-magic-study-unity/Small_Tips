@@ -3,7 +3,7 @@ account
 ************************************************************/
 ■account
 mail		nobuhiro.saijo@gmail.com
-password	R-1
+password	R
 Username	SJMagic
 
 
